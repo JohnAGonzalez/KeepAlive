@@ -45,7 +45,7 @@ int WINAPI WinMain(
 		hInstance,
 		NULL);
 
-	ShowWindow(hWnd, iCmdShow);
+	ShowWindow(hWnd, SW_SHOWMINIMIZED);
 	UpdateWindow(hWnd);
 
 	while (GetMessage(&msg, NULL, 0, 0))
